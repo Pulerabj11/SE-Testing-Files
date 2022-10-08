@@ -1,0 +1,26 @@
+{
+    "xpath" : [
+      {
+          "emailInputBox": "//*[@id='email']/input",
+          "passwordInputBox": "//*[@id='password']/input",
+          "logInButton": "//*[@id='root']/div/div/body/div/div/div[2]/form/button",
+          "logOutButton": "//*[@id='root']/div/div/div/div/h3"
+      }],
+
+      "loginInfo" : [
+        {
+            "validEmail": "admin@testing.com",
+            "validEmailBadFormat": "admin",
+            "invalidEmail": "WrongEmail@testing.com",
+            "invalidEmailBadFormat": "WrongEmail",
+            "validPassword": "Password",
+            "invalidPassword": "WrongPassword"
+        }],
+
+        "URLs" : [
+            {
+                "loginPageURL": "http://localhost:3000/Login",
+                "adminPageURL": "http://localhost:3000"
+            }
+        ]
+  }
